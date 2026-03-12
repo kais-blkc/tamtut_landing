@@ -1,220 +1,330 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tamtyt | Надёжный доступ в сеть</title>
-  <meta name="description" content="Tamtyt — современный сервис для защиты вашей онлайн-приватности. Шифрование трафика и стабильное подключение через Telegram.">
-  
-  <!-- Google Fonts: Inter -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <!-- Navigation -->
-  <nav class="navbar" data-purpose="main-navigation">
-    <div class="container nav-container">
-      <div class="logo">
-        <img src="logo.svg" alt="Tamtyt Logo" class="logo-img" data-purpose="brand-logo">
-        <span class="logo-text">Tamtyt</span>
-      </div>
-      
-      <button class="mobile-menu-btn" aria-label="Toggle menu">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-      
-      <ul class="nav-links">
-        <li><a href="#features">Возможности</a></li>
-        <li><a href="#how-it-works">Как работает</a></li>
-        <li><a href="#benefits">Преимущества</a></li>
-        <li><a href="#" class="btn btn-primary">Подключить</a></li>
-      </ul>
-    </div>
-  </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tamtyt | Надёжный доступ в сеть</title>
+    <meta
+      name="description"
+      content="Tamtyt — современный сервис для защиты вашей онлайн-приватности. Шифрование трафика и стабильное подключение через Telegram."
+    />
 
-  <!-- Hero Section -->
-  <section class="hero" data-purpose="hero">
-    <div class="container hero-content">
-      <h1 class="hero-title animate-fade-in">
-        Ваш интернет — <br>
-        <span class="text-primary">ваше пространство.</span>
-      </h1>
-      <p class="hero-subtitle">
-        Tamtyt обеспечивает приватность и стабильность подключения через интеграцию с Telegram. Защитите свои данные без сложных настроек.
-      </p>
-      <div class="hero-buttons">
-        <a href="#" class="btn btn-large btn-primary">Начать использование</a>
-        <a href="#features" class="btn btn-large btn-secondary">Узнать больше</a>
-      </div>
-    </div>
-  </section>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Features Section -->
-  <section class="features" id="features" data-purpose="features">
-    <div class="container">
-      <div class="section-header">
-        <h2>Возможности сервиса</h2>
-        <p>Технологии для вашей приватности и комфорта.</p>
-      </div>
-      
-      <div class="features-grid">
-        <div class="feature-card" data-purpose="feature-card">
-          <div class="feature-icon">
-            <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
-            </svg>
-          </div>
-          <h3>Защита данных</h3>
-          <p>Современное шифрование гарантирует, что ваша активность остаётся конфиденциальной.</p>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar" data-purpose="main-navigation">
+      <div class="container nav-container">
+        <div class="logo">
+          <img
+            src="logo.svg"
+            alt="Tamtyt Logo"
+            class="logo-img"
+            data-purpose="brand-logo"
+          />
+          <span class="logo-text">Tamtyt</span>
         </div>
-        
-        <div class="feature-card" data-purpose="feature-card">
-          <div class="feature-icon">
-            <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path>
-            </svg>
-          </div>
-          <h3>Стабильный доступ</h3>
-          <p>Подключение работает независимо от внешних факторов и местоположения.</p>
-        </div>
-        
-        <div class="feature-card" data-purpose="feature-card">
-          <div class="feature-icon">
-            <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
-            </svg>
-          </div>
-          <h3>Высокая скорость</h3>
-          <p>Оптимизированная инфраструктура для быстрой работы без задержек.</p>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- How It Works Section -->
-  <section class="how-it-works" id="how-it-works" data-purpose="process-steps">
-    <div class="container">
-      <div class="section-header">
-        <h2>Начните за несколько минут</h2>
-        <p>Простая настройка без дополнительных приложений.</p>
-      </div>
-      
-      <div class="steps-grid">
-        <div class="step">
-          <div class="step-number">1</div>
-          <h3>Запустите Telegram бота</h3>
-          <p>Откройте нашего официального бота для начала работы.</p>
-        </div>
-        
-        <div class="step">
-          <div class="step-number">2</div>
-          <h3>Получите настройки</h3>
-          <p>Бот выдаст персональные параметры подключения.</p>
-        </div>
-        
-        <div class="step">
-          <div class="step-number">3</div>
-          <h3>Подключитесь</h3>
-          <p>Активируйте сервис и пользуйтесь без ограничений.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+        <button class="mobile-menu-btn" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
 
-  <!-- Benefits Section -->
-  <section class="benefits" id="benefits" data-purpose="benefits-grid">
-    <div class="container">
-      <div class="benefits-grid">
-        <div class="benefit-item">
-          <div class="benefit-icon">
-            <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
-            </svg>
-          </div>
-          <div>
-            <h4>Приватность</h4>
-            <p>Ваши данные под надёжной защитой.</p>
-          </div>
-        </div>
-        
-        <div class="benefit-item">
-          <div class="benefit-icon">
-            <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.141 0M1.394 9.393c5.857-5.857 15.355-5.857 21.213 0"></path>
-            </svg>
-          </div>
-          <div>
-            <h4>Безопасность</h4>
-            <p>Защита в любых сетях, включая общественные.</p>
-          </div>
-        </div>
-        
-        <div class="benefit-item">
-          <div class="benefit-icon">
-            <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
-            </svg>
-          </div>
-          <div>
-            <h4>Скорость</h4>
-            <p>Минимальные задержки при подключении.</p>
-          </div>
-        </div>
-        
-        <div class="benefit-item">
-          <div class="benefit-icon">
-            <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path>
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
-            </svg>
-          </div>
-          <div>
-            <h4>Легкость</h4>
-            <p>Настройка за пару минут без специальных знаний.</p>
-          </div>
+        <ul class="nav-links">
+          <li><a href="#features">Возможности</a></li>
+          <li><a href="#how-it-works">Как работает</a></li>
+          <li><a href="#benefits">Преимущества</a></li>
+          <li><a href="#" class="btn btn-primary">Подключить</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" data-purpose="hero">
+      <div class="container hero-content">
+        <h1 class="hero-title animate-fade-in">
+          Ваш интернет - <br />
+          <span class="text-primary">ваше пространство.</span>
+        </h1>
+        <p class="hero-subtitle">
+          Tamtyt обеспечивает приватность и стабильность подключения через
+          интеграцию с Telegram. Защитите свои данные без сложных настроек.
+        </p>
+        <div class="hero-buttons">
+          <a href="#" class="btn btn-large btn-primary">Начать использование</a>
+          <a href="#features" class="btn btn-large btn-secondary"
+            >Узнать больше</a
+          >
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- CTA Section -->
-  <section class="cta" data-purpose="cta-final">
-    <div class="container cta-content">
-      <h2>Начните пользоваться сегодня</h2>
-      <p>Присоединяйтесь к тысячам пользователей, которые уже оценили преимущества Tamtyt.</p>
-      <a href="#" class="btn btn-large btn-cta">
-        <svg class="icon icon-telegram" fill="currentColor" viewBox="0 0 24 24">
-          <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm5.891 8.146l-2.003 9.464c-.149.659-.541.823-1.091.515l-3.051-2.248-1.474 1.417c-.163.163-.3.3-.614.3l.219-3.111 5.662-5.114c.247-.219-.054-.341-.381-.123l-7.001 4.409-3.012-.942c-.655-.205-.668-.655.137-.968l11.771-4.535c.545-.203 1.022.127.838.836z"></path>
-        </svg>
-        Запустить в Telegram
-      </a>
-    </div>
-  </section>
+    <!-- Features Section -->
+    <section class="features" id="features" data-purpose="features">
+      <div class="container">
+        <div class="section-header">
+          <h2>Возможности сервиса</h2>
+          <p>Технологии для вашей приватности и комфорта.</p>
+        </div>
 
-  <!-- Footer -->
-  <footer class="footer" data-purpose="footer">
-    <div class="container footer-content">
-      <div class="footer-brand">
-        <img src="logo.svg" alt="Tamtyt Logo" class="footer-logo">
-        <span>Tamtyt</span>
+        <div class="features-grid">
+          <div class="feature-card" data-purpose="feature-card">
+            <div class="feature-icon">
+              <svg
+                class="icon"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
+                ></path>
+              </svg>
+            </div>
+            <h3>Защита данных</h3>
+            <p>
+              Современное шифрование гарантирует, что ваша активность остаётся
+              конфиденциальной.
+            </p>
+          </div>
+
+          <div class="feature-card" data-purpose="feature-card">
+            <div class="feature-icon">
+              <svg
+                class="icon"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
+                ></path>
+              </svg>
+            </div>
+            <h3>Стабильный доступ</h3>
+            <p>
+              Подключение работает независимо от внешних факторов и
+              местоположения.
+            </p>
+          </div>
+
+          <div class="feature-card" data-purpose="feature-card">
+            <div class="feature-icon">
+              <svg
+                class="icon"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M13 10V3L4 14h7v7l9-11h-7z"
+                ></path>
+              </svg>
+            </div>
+            <h3>Высокая скорость</h3>
+            <p>
+              Оптимизированная инфраструктура для быстрой работы без задержек.
+            </p>
+          </div>
+        </div>
       </div>
-      
-      <ul class="footer-links">
-        <li><a href="#">Политика конфиденциальности</a></li>
-        <li><a href="#">Условия использования</a></li>
-        <li><a href="mailto:contact@tamtyt.com">contact@tamtyt.com</a></li>
-      </ul>
-      
-      <p class="copyright">&copy; 2024 Tamtyt. Все права защищены.</p>
-    </div>
-  </footer>
+    </section>
 
-  <script src="script.js"></script>
-</body>
+    <!-- How It Works Section -->
+    <section
+      class="how-it-works"
+      id="how-it-works"
+      data-purpose="process-steps"
+    >
+      <div class="container">
+        <div class="section-header">
+          <h2>Начните за несколько минут</h2>
+          <p>Простая настройка без дополнительных приложений.</p>
+        </div>
+
+        <div class="steps-grid">
+          <div class="step">
+            <div class="step-number">1</div>
+            <h3>Запустите Telegram бота</h3>
+            <p>Откройте нашего официального бота для начала работы.</p>
+          </div>
+
+          <div class="step">
+            <div class="step-number">2</div>
+            <h3>Получите настройки</h3>
+            <p>Бот выдаст персональные параметры подключения.</p>
+          </div>
+
+          <div class="step">
+            <div class="step-number">3</div>
+            <h3>Подключитесь</h3>
+            <p>Активируйте сервис и пользуйтесь без ограничений.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits" id="benefits" data-purpose="benefits-grid">
+      <div class="container">
+        <div class="benefits-grid">
+          <div class="benefit-item">
+            <div class="benefit-icon">
+              <svg
+                class="icon"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
+                ></path>
+              </svg>
+            </div>
+            <div>
+              <h4>Приватность</h4>
+              <p>Ваши данные под надёжной защитой.</p>
+            </div>
+          </div>
+
+          <div class="benefit-item">
+            <div class="benefit-icon">
+              <svg
+                class="icon"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.141 0M1.394 9.393c5.857-5.857 15.355-5.857 21.213 0"
+                ></path>
+              </svg>
+            </div>
+            <div>
+              <h4>Безопасность</h4>
+              <p>Защита в любых сетях, включая общественные.</p>
+            </div>
+          </div>
+
+          <div class="benefit-item">
+            <div class="benefit-icon">
+              <svg
+                class="icon"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M13 10V3L4 14h7v7l9-11h-7z"
+                ></path>
+              </svg>
+            </div>
+            <div>
+              <h4>Скорость</h4>
+              <p>Минимальные задержки при подключении.</p>
+            </div>
+          </div>
+
+          <div class="benefit-item">
+            <div class="benefit-icon">
+              <svg
+                class="icon"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"
+                ></path>
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                ></path>
+              </svg>
+            </div>
+            <div>
+              <h4>Легкость</h4>
+              <p>Настройка за пару минут без специальных знаний.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta" data-purpose="cta-final">
+      <div class="container cta-content">
+        <h2>Начните пользоваться сегодня</h2>
+        <p>
+          Присоединяйтесь к тысячам пользователей, которые уже оценили
+          преимущества Tamtyt.
+        </p>
+        <a href="#" class="btn btn-large btn-cta">
+          <svg
+            class="icon icon-telegram"
+            fill="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm5.891 8.146l-2.003 9.464c-.149.659-.541.823-1.091.515l-3.051-2.248-1.474 1.417c-.163.163-.3.3-.614.3l.219-3.111 5.662-5.114c.247-.219-.054-.341-.381-.123l-7.001 4.409-3.012-.942c-.655-.205-.668-.655.137-.968l11.771-4.535c.545-.203 1.022.127.838.836z"
+            ></path>
+          </svg>
+          Запустить в Telegram
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" data-purpose="footer">
+      <div class="container footer-content">
+        <div class="footer-brand">
+          <img src="logo.svg" alt="Tamtyt Logo" class="footer-logo" />
+          <span>Tamtyt</span>
+        </div>
+
+        <ul class="footer-links">
+          <li><a href="#">Политика конфиденциальности</a></li>
+          <li><a href="#">Условия использования</a></li>
+          <li><a href="mailto:contact@tamtyt.com">contact@tamtyt.com</a></li>
+        </ul>
+
+        <p class="copyright">&copy; 2024 Tamtyt. Все права защищены.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>
