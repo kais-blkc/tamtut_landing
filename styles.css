@@ -138,6 +138,7 @@ h4 {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  text-decoration: none;
 }
 
 .logo-img {
@@ -360,7 +361,6 @@ h4 {
 }
 
 .step p {
-  font-size: 0.875rem;
   color: rgba(25, 94, 75, 0.6);
 }
 
@@ -403,7 +403,6 @@ h4 {
 }
 
 .benefit-item p {
-  font-size: 0.875rem;
   color: rgba(25, 94, 75, 0.6);
 }
 
@@ -588,7 +587,7 @@ h4 {
   }
 
   .mobile-menu-btn.active span:nth-child(1) {
-    transform: rotate(45deg) translate(5px, 5px);
+    transform: rotate(45deg) translate(5px, 3px);
   }
 
   .mobile-menu-btn.active span:nth-child(2) {
@@ -596,6 +595,6 @@ h4 {
   }
 
   .mobile-menu-btn.active span:nth-child(3) {
-    transform: rotate(-45deg) translate(7px, -6px);
+    transform: rotate(-45deg) translate(6px, -4px);
   }
 }
